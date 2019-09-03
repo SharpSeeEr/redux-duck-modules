@@ -1,0 +1,29 @@
+{
+  "name": "redux-duck-modules",
+  "version": "1.0.0",
+  "description": "A package help organize actions, reducers, and selectors together into modules, inspired by [ducks](https://github.com/erikras/ducks-modular-redux).",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha ./src/**/*.spec.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SharpSeeEr/redux-duck-modules.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SharpSeeEr/redux-duck-modules/issues"
+  },
+  "homepage": "https://github.com/SharpSeeEr/redux-duck-modules#readme",
+  "devDependencies": {
+    "@types/chai": "^4.2.0",
+    "@types/mocha": "^5.2.7",
+    "chai": "^4.2.0",
+    "mocha": "^6.2.0",
+    "redux": "^4.0.4",
+    "ts-node": "^8.3.0",
+    "typescript": "^3.6.2"
+  }
+}
