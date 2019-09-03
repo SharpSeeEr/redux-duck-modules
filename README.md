@@ -13,7 +13,6 @@ A Duck Module combines the logic around a specific data set together, meaning th
 - **Each module is only aware of it's own state.** Modules don't care or know about each other's state.
 - **Each module defnes how its state is structured.** You define all actions, reducers, and selectors in each module that manipulate and retrieve data from that modules state.
 - **Connected components should not assume to know how the store is structured.** When creating connected components, there is no need to directly reference the state.  Instead import actions and selectors from each module.  This keeps the logic of how the state is structured inside the module - the component doesn't need to know the path through the state.  As a bonus, connected components don't need to be updated when the structure of the store is changed.
-- **You can define global actions and global selectors.** Occasionally, you'll need to dispatch actions or define selectors that use multiple reducers. Global actions have access to all defined actions, and global reducers have access to all defined selectors.
 
 ## API Reference
 
