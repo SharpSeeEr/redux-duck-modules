@@ -17,11 +17,7 @@ A Duck Module combines the logic around a specific data set together, meaning th
 
 ## API Reference
 
-### `createModule()`
-
-``` javascript
-createModule(name, reducer, actions, selectors)
-```
+### `createModule(name, reducer, actions, selectors)`
 
 - **name** - the name of the module, used primarily when combining reducers from multiple modules.
 - **reducer** - the reducer function for the module.
@@ -31,11 +27,7 @@ createModule(name, reducer, actions, selectors)
 Returns a Duck Module object suitable for exporting.  The passed in selectors are wrapped so proper scope is applied when used.
 
 
-### `combineModuleReducers()`
-
-``` javascript
-combineModuleReducers(modules)
-```
+### `combineModuleReducers(modules)`
 
 - **modules** - an array of all modules
 
